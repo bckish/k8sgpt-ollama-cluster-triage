@@ -1,0 +1,11 @@
+ai:
+  enabled: true
+  provider: ollama
+  model: llama3.2:3b
+  baseURL: http://ollama.ai-triage.svc.cluster.local:11434
+backend:
+  enabled: false
+serviceAccount:
+  create: true
+rbac:
+  create: true
