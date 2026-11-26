@@ -1,0 +1,9 @@
+{
+  "kind": "EventList",
+  "items": [
+    {"type":"Normal","reason":"Scheduled"},
+    {"type":"Warning","reason":"FailedScheduling","message":"synthetic scheduler warning"},
+    {"type":"Warning","reason":"Unhealthy","message":"synthetic readiness warning"},
+    {"type":"Warning","reason":"FailedMount","message":"synthetic mount warning"}
+  ]
+}
